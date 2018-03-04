@@ -1,6 +1,19 @@
 Pylons
 ++++++
 
+What is this fork?
+==================
+
+It has been found that some of my personal projects would be more easily
+transitioned to Python 3 than to pyramid. Because of this, it may be easier
+to also update Pylons and relevant dependencies, and this way wrap my Pylons
+applications under Pyramid 1.9+, transitionally adding any new views and lib
+utilities via pyramid, updating current libraries to be separate from the
+Pylons StackedObjectProxies or additionally with the pyramid regiatry.
+
+The soon deprecation of Python2 is a worse bottleneck than the exisring death
+of Pylons.
+
 .. image:: https://secure.travis-ci.org/Pylons/pylons.png?branch=master
    :alt: Build Status
    :target: https://secure.travis-ci.org/Pylons/pylons
